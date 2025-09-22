@@ -28,7 +28,10 @@ h1 {
 main {
     max-width: 640px;
 }
-
+main div {
+    overflow: auto;
+    margin-bottom: 1rem;
+}
 main img {
     width: 150px;
     height: auto;
@@ -58,7 +61,7 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 43px;
 }
 footer {
@@ -72,7 +75,7 @@ footer {
 .box{
     margin: 1rem;
     border: 1px solid rgba(0 0 0 .1);/* 1 */
-    padding: 1 rem;
+    padding: 3rem;
     background-color: #eee;
     color: #000;
 }
